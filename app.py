@@ -50,6 +50,24 @@ for i in range(len(employee_id_list)):
           f"Age: {employee_age_list[i]}, "
           f"Email: {employee_email_list[i]}")
 
+# List universities
+university_id_list = [1, 2, 3, 4, 5]
+university_name_list = ["University of the Philippines", "Ateneo de Manila University", "De La Salle University", "University of Santo Tomas", "Polytechnic University of the Philippines"]
+university_location_list = ["Quezon City", "Quezon City", "Manila", "Manila", "Manila"]
+university_established_year_list = [1908, 1859, 1911, 1611, 1904]
+university_type_list = ["Public", "Private", "Private", "Private", "Public"]
+university_website_list = ["www.up.edu.ph", "www.ateneo.edu", "www.dlsu.edu.ph", "www.ust.edu.ph", "www.pup.edu.ph"]
+
+# Print universities
+print("University List:")
+for i in range(len(university_id_list)):
+    print(f"ID: {university_id_list[i]}, "
+          f"Name: {university_name_list[i]}, "
+          f"Location: {university_location_list[i]}, "
+          f"Established Year: {university_established_year_list[i]}, "
+          f"Type: {university_type_list[i]}, "
+          f"Website: {university_website_list[i]}")
+
 
 
 if __name__ == '__main__':
