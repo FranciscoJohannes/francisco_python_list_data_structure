@@ -34,6 +34,22 @@ for i in range(len(product_id_list)):
           f"Stock: {product_stock_list[i]}, "
           f"Supplier Email: {product_supplier_email_list[i]}")
 
+# List employee data
+employee_id_list = [1, 2, 3, 4, 5]
+employee_name_list = ["John Doe", "Jane Smith", "Mark Johnson", "Lisa Wong", "Paul McDonald"]
+employee_department_list = ["Sales", "Human Resources", "IT", "Marketing", "Finance"]
+employee_age_list = [30, 25, 40, 28, 35]
+employee_email_list = ["john.doe@company.com", "jane.smith@company.com", "mark.johnson@company.com", "lisa.wong@company.com", "paul.mcdonald@company.com"]
+
+# Print employee data
+print("Employee List:")
+for i in range(len(employee_id_list)):
+    print(f"ID: {employee_id_list[i]}, "
+          f"Name: {employee_name_list[i]}, "
+          f"Department: {employee_department_list[i]}, "
+          f"Age: {employee_age_list[i]}, "
+          f"Email: {employee_email_list[i]}")
+
 
 
 if __name__ == '__main__':
