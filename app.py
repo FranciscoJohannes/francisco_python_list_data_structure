@@ -24,6 +24,16 @@ for i in range(len(product_id_list)):
           f"Stock: {product_stock_list[i]}, "
           f"Supplier Email: {product_supplier_email_list[i]}")
 
+# Print product data
+print("Product List:")
+for i in range(len(product_id_list)):
+    print(f"ID: {product_id_list[i]}, "
+          f"Name: {product_name_list[i]}, "
+          f"Category: {product_category_list[i]}, "
+          f"Price: ${product_price_list[i]}, "
+          f"Stock: {product_stock_list[i]}, "
+          f"Supplier Email: {product_supplier_email_list[i]}")
+
 
 
 if __name__ == '__main__':
