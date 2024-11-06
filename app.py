@@ -68,6 +68,23 @@ for i in range(len(university_id_list)):
           f"Type: {university_type_list[i]}, "
           f"Website: {university_website_list[i]}")
 
+# Restaurant Table list
+restaurant_id_list = [1, 2, 3, 4, 5]
+restaurant_name_list = ["Vikings Luxury Buffet", "Antonio's Restaurant", "Mesa Filipino Moderne", "Manam Comfort Filipino", "Ramen Nagi"]
+restaurant_location_list = ["Pasay City", "Tagaytay", "Makati City", "Quezon City", "Various Locations"]
+restaurant_Cuisine_type_list = [2011, 2002, 2009, 2013, 2013]
+restaurant_established_year_list = ["Buffet", "Fine Dining", "Filipino", "Filipino", "Japanese"]
+restaurant_website_or_contact_list = ["www.vikings.ph", "www.antoniosrestaurant.ph", "www.mesa.ph" , "www.manam.ph", "www.ramennagi.com.ph"]
+
+# Print restaurants data
+print("Restaurant List:")
+for i in range(len(restaurant_id_list)):
+    print(f"ID: {restaurant_id_list[i]}, "
+          f"Name: {restaurant_name_list[i]}, "
+          f"Location: {restaurant_location_list[i]}, "
+          f"Cuisine type: {restaurant_Cuisine_type_list[i]}, "
+          f"Established Year: {restaurant_established_year_list[i]}, "
+          f"Website or Contact:{restaurant_website_or_contact_list[i]}")
 
 
 if __name__ == '__main__':
